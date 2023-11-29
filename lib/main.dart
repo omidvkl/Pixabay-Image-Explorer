@@ -8,7 +8,7 @@ import 'package:pixabay_image_explorer/screen/image_search_page.dart';
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();
   await FlutterDownloader.initialize(
-      debug: true // این گزینه را در حالت تولید به false تغییر دهید
+      debug: true // این گزینه را در حالت تولید به false تغییر دهید.
   );
   runApp(MyApp());
 }
